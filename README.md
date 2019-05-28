@@ -8,3 +8,5 @@ Browser extension for analyzing news article bias and source reliability. Using 
 GitHub link for the above MIT CSAIL and QCRI paper's data: https://github.com/ramybaly/News-Media-Reliability/
 
 BS-Detector GitLab: https://gitlab.com/bs-detector/bs-detector
+
+"Sampling the News Producers: A Large News and Feature Data Set for the Study of the Complex Media Landscape"https://arxiv.org/pdf/1803.10124.pdf
