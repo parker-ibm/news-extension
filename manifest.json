@@ -1,0 +1,6 @@
+{
+    "name": "News Extension",
+    "version": "1.0",
+    "description": "Article analysis extension for evaluating news reliability.",
+    "manifest_version": 2
+  }
