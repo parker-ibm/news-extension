@@ -2,6 +2,7 @@
     "name": "News Extension",
     "version": "1.0",
     "description": "Article analysis extension for evaluating news reliability.",
+    "options_page": "options.html",
     "permissions": ["activeTab", "declarativeContent", "storage"],
     "background": {
         "scripts": ["background.js"],
