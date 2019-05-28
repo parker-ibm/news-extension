@@ -5,4 +5,4 @@ Browser extension for analyzing news article bias and source reliability. Using 
 
 "Predicting Factuality of Reporting and Bias of News Media Sources" https://arxiv.org/pdf/1810.01765.pdf
 
-GitHub link for the above paper's data: https://github.com/ramybaly/News-Media-Reliability/
+GitHub link for the above MIT CSAIL and QRIC paper's data: https://github.com/ramybaly/News-Media-Reliability/
