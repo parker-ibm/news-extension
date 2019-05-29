@@ -376,7 +376,7 @@ NewsDetector.prototype = {
             if (this.dataType === 'caution') {
                 $badlinkWrapper.before('<div class="news-alert-inline warning">' + this.warnMessage + '</div>');
             } else {
-                $badlinkWrapper.before('<div class="news-alert-inline">' + this.warnMessage + '</div>');
+                $badlinkWrapper.before('<div class="news-alert-inline">' + this.warnMessage + '<br/>Reliability Score: <br/>Sentiment: </div>');
             }
 
             $badlinkWrapper.addClass('news-flag');
