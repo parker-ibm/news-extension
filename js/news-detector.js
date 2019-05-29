@@ -1,3 +1,5 @@
+watsonUrl = ('https://gateway.watsonplatform.net/tone-analyzer/api');
+
 // If no browser object, check for chrome
 if (typeof chrome === 'undefined' && typeof browser !== 'undefined') {
     chrome = browser;
@@ -29,7 +31,6 @@ function NewsDetector() {
     this.ownHostRegExp = new RegExp( window.location.host );
     this.lfbRegExp = new RegExp( /^https?:\/\/l\.facebook\.com\/l\.php\?u=([^&]+)/);
 }
-
 
 
 NewsDetector.prototype = {
