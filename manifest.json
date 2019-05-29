@@ -2,14 +2,36 @@
     "name": "News Extension",
     "version": "1.0",
     "description": "Article analysis extension for evaluating news reliability.",
-    "options_page": "options.html",
-    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "permissions": [
+      "*://unshorten.me/*",
+      "webRequest",
+      "webNavigation"
+    ],
     "background": {
-        "scripts": ["background.js"],
-        "persistent": false
-      },
-      "page_action": {
-        "default_popup": "popup.html",
+      "scripts": [
+        "js/utils.js",
+        "js/background.js"
+      ],
+      "persistent": true
+    },
+    "content_scripts": [ {
+      "css": [ "css/news-detector.css" ],
+      "js": [
+        "js/utils.js",
+        "js/lib/jquery-3.1.1.slim.min.js",
+        "js/lib/mutation-summary.js",
+        "js/lib/jquery.mutation-summary.js",
+        "js/news-detector.js"
+      ],
+      "matches": [ "*://*/*" ],
+      "all_frames": true,
+      "run_at": "document_end"
+    } ],
+    "web_accessible_resources": [
+     "data/data.json"
+    ],
+    "page_action": {
+      "default_title": "News Detector",
         "default_icon": {
           "16": "images/get_started16.png",
           "32": "images/get_started32.png",
