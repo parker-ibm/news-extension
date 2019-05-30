@@ -241,7 +241,7 @@ NewsDetector.prototype = {
         if (this.dataType === 'caution') {
             this.warnMessage = '⚠️ Caution: Source may be reliable but contents require further verification.';
         } else if (this.dataType === 'known') {
-            this.warnMessage = 'This is a trusted source.';
+            this.warnMessage = 'This is generally considered a reliable source.';
         } else {
             this.warnMessage = 'This may not be a reliable source.';
         }
