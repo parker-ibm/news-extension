@@ -21,6 +21,10 @@ function NewsDetector() {
     this.expanded = {};
     this.flagState = 0; // 0 initial, 1 open, -1 hidden
     this.firstLoad = true;
+    
+    this.score = 0.8;
+    this.sentiment = 'Analytical';
+
     this.shorts = [];
     this.shortUrls = [];
     this.siteId = '';
@@ -239,11 +243,11 @@ NewsDetector.prototype = {
 
 
         if (this.dataType === 'caution') {
-            this.warnMessage = '⚠️ Caution: Source may be reliable but contents require further verification.';
+            this.warnMessage = '⚠️ <b>Caution: Source may be reliable but contents require further verification.</b>';
         } else if (this.dataType === 'known') {
-            this.warnMessage = 'This is generally considered a reliable source.';
+            this.warnMessage = '<b>This is generally considered a reliable source.</b>';
         } else {
-            this.warnMessage = 'This may not be a reliable source.';
+            this.warnMessage = '<b>This may not be a reliable source.</b>';
         }
 
         this.debug('this.warnMessage: ', this.warnMessage);
@@ -387,7 +391,7 @@ NewsDetector.prototype = {
 
             switch (this.dataType) {
                 case 'known':
-                    $badlinkWrapper.before('<div class="known-news-alert-inline">' + this.warnMessage + '<br/>Reliability Score: <br/>Sentiment: </div>');
+                    $badlinkWrapper.before('<div class="known-news-alert-inline">' + this.warnMessage + '<br/>Reliability Score: ' + this.score +' <br/>Sentiment: '+ this.sentiment + ' </div>');
                     break;
                 default:
                     $badlinkWrapper.before('<div class="news-alert-inline">' + this.warnMessage + '<br/>Reliability Score: <br/>Sentiment: </div>');

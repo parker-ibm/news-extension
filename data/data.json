@@ -27,7 +27,8 @@
   "allnewspipeline.com" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score": 0.2
   },
   "americanlookout.com" : {
     "language" : "en",
@@ -1516,22 +1517,31 @@
   },
   "cnn.com" : {
     "language" : "en",
-    "type" : "known"
+    "type" : "known",
+    "score" : 0.6
+
   },
   "msnbc.com" : {
     "language" : "en",
-    "type" : "known"
+    "type" : "known",
+    "score" : 0.5
+
   },
   "on.msnbc.com" : {
     "language" : "en",
-    "type" : "known"
+    "type" : "known",
+    "score" : 0.5
+
   },
   "foxnews.com" : {
     "language" : "en",
-    "type" : "known"
+    "type" : "known",
+    "score" : 0.5
+
   },
   "cnn.it" : {
     "language" : "en",
-    "type" : "known"
+    "type" : "known",
+    "score" : 0.6
   }
 }
