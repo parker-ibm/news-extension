@@ -1577,6 +1577,18 @@
     "notes" : "",
     "score" : 0.2
   },
+  "www.rt.com" : {
+    "language" : "en",
+    "type" : "state",
+    "notes" : "",
+    "score" : 0.2
+  },
+  "on.rt.com" : {
+    "language" : "en",
+    "type" : "state",
+    "notes" : "",
+    "score" : 0.2
+  },
   "Youngcons.com" : {
     "language" : "en",
     "type" : "bias",
