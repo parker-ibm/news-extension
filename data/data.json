@@ -1822,6 +1822,16 @@
     "type" : "known",
     "score" : 0.6
   },
+  "ft.com" : {
+    "language" : "en",
+    "type" : "known",
+    "score" : 0.6
+  },
+  "on.ft.com" : {
+    "language" : "en",
+    "type" : "known",
+    "score" : 0.6
+  },
   "msnbc.com" : {
     "language" : "en",
     "type" : "known",
