@@ -5,7 +5,7 @@ Browser extension for analyzing news article bias and source reliability. Using 
 ## Reliability Weighting Criteria
 | Metric              | Weight        |
 | --------------------|:-------------:| 
-| Source Factuality   | 1             |  
+| Source Reputation   | 1.0           |  
 
 ## References
 
