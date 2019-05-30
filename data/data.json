@@ -1522,6 +1522,10 @@
     "language" : "en",
     "type" : "known"
   },
+  "on.msnbc.com" : {
+    "language" : "en",
+    "type" : "known"
+  },
   "foxnews.com" : {
     "language" : "en",
     "type" : "known"
