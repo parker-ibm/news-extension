@@ -22,8 +22,8 @@ function NewsDetector() {
     this.flagState = 0; // 0 initial, 1 open, -1 hidden
     this.firstLoad = true;
     
-    this.score = 0.8;
-    this.sentiment = 'Analytical';
+    this.score = 0;
+    this.sentiment = '';
 
     this.shorts = [];
     this.shortUrls = [];
@@ -312,6 +312,39 @@ NewsDetector.prototype = {
 
     },
 
+
+     //Detect tone via Watson API
+     /* getTone: async function(url) {
+        var watsonAPI = 'https://gateway.watsonplatform.net/tone-analyzer/api/v1/analyze?version=2018-11-16/';
+        var apikey = 'ppuuYoF4q67GA-repblvIDPvqC7de4E36htroVZ-0Jqg'
+        fetch(`${watsonAPI}`, {
+            //body: '{"url": \"https://www.ft.com/content/6da72076-8133-11e9-b592-5fe435b57a3b\",\n\"features\": {\n\"sentiment\": {},\n\"categories\": {},\n\"concepts\": {},\n\"entities\": {},\n\"keywords\": {}\n}\n}',
+            headers: {
+                "apikey": 'ppuuYoF4q67GA-repblvIDPvqC7de4E36htroVZ-0Jqg',
+                "Content-Type": "application/json"
+            },
+            method: 'POST'
+        }
+        ).then(r => r.text()).then(result => {
+            // Result now contains the response text, do what you want...
+            console.log(result);
+        })
+    }, */
+
+    getTone: function(url) {
+        var watsonAPI = 'https://gateway.watsonplatform.net/tone-analyzer/api/v1/analyze?version=2018-11-16/';
+        var apikey = 'ppuuYoF4q67GA-repblvIDPvqC7de4E36htroVZ-0Jqg'
+        fetch("https://gateway.watsonplatform.net/tone-analyzer/api/v3/tone?version=2017-09-21&text=Team,%20I%20know%20that%20times%20are%20tough20Product%20sales%20have%20been%20disappointing%20for%20the%20past%20three%20quarters.%20We%20have%20a%20competitive%20product,%20but%20we%20need%20to%20do%20a%20better%20job%20of%20selling%20it", {
+            headers: {
+                Authorization: "Basic YXBpa2V5OnBwdXVZb0Y0cTY3R0EtcmVwYmx2SURQdnFDN2RlNEUzNmh0cm9WWi0wSnFn"
+            }
+        }
+        ).then(r => r.text()).then(result => {
+            // Result now contains the response text, do what you want...
+            console.log(result);
+        })
+    },
+
     // Get the hostname of a given element's link
     getHost: function ($element) {
 
@@ -320,6 +353,11 @@ NewsDetector.prototype = {
         var thisUrl = '';
         if ($element.attr('data-expanded-url') !== null && $element.attr('data-expanded-url') !== undefined) {
             thisUrl = $element.attr('data-expanded-url');
+            
+            //!!!
+            // console.log(thisUrl);
+            this.getTone(thisUrl);
+            
         } else {
             thisUrl = $element.attr('href');
         }
@@ -329,6 +367,7 @@ NewsDetector.prototype = {
 
         return thisUrl;
     },
+
 
     // Target links
     targetLinks: function () {
@@ -377,7 +416,7 @@ NewsDetector.prototype = {
                     $(this).attr('data-is-news', true);
                     $(this).attr('data-news-type', newsd.newsId.type);
                     $(this).attr('data-news-score', newsd.newsId.score);
-
+                    $(this).attr('data-news-sentiment', newsd.newsId.sentiment);
                 }
             }
         });
@@ -423,6 +462,8 @@ NewsDetector.prototype = {
         $('a[data-is-news="true"]').each(function () {
             newsd.dataType = $(this).attr('data-news-type');
             newsd.score = $(this).attr('data-news-score');
+            newsd.sentiment = $(this).attr('data-news-sentiment');
+
 
             newsd.warningMsg();
 
