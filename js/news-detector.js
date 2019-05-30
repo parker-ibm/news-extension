@@ -296,7 +296,6 @@ NewsDetector.prototype = {
 
         this.flagState = 1;
         $('.news-alert').show();
-        $('.known-news-alert').show();
 
     },
 
@@ -307,7 +306,6 @@ NewsDetector.prototype = {
 
         this.flagState = -1;
         $('.news-alert').hide();
-        $('.known-news-alert').hide();
 
     },
 
@@ -387,13 +385,24 @@ NewsDetector.prototype = {
 
         if (!$badlinkWrapper.hasClass('news-flag')) {
 
+            switch (this.dataType) {
+                case 'known':
+                    $badlinkWrapper.before('<div class="known-news-alert-inline">' + this.warnMessage + '<br/>Reliability Score: <br/>Sentiment: </div>');
+                    break;
+                default:
+                    $badlinkWrapper.before('<div class="news-alert-inline">' + this.warnMessage + '<br/>Reliability Score: <br/>Sentiment: </div>');
+                    break;
+            }
+
+            /*
             if (this.dataType === 'caution') {
                 $badlinkWrapper.before('<div class="news-alert-inline warning">' + this.warnMessage + '</div>');
-            } else if(this.datatype === 'known') {
+            } else if (this.datatype === 'known') {
                 $badlinkWrapper.before('<div class="known-news-alert-inline">' + this.warnMessage + '<br/>Reliability Score: <br/>Sentiment: </div>');
             } else {
                 $badlinkWrapper.before('<div class="news-alert-inline">' + this.warnMessage + '<br/>Reliability Score: <br/>Sentiment: </div>');
-            }
+            } 
+            */
 
             $badlinkWrapper.addClass('news-flag');
         }
