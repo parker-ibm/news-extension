@@ -30,3 +30,7 @@ python-goose dataset: https://github.com/grangier/python-goose/tree/develop/goos
 Goose3 quickstart guide: https://goose3.readthedocs.io/en/latest/quickstart.html
 
 Claimbuster dataset: https://idir.uta.edu/claimbuster/
+
+MIT/QRIC Corpus list: https://github.com/ramybaly/News-Media-Reliability/blob/master/data/corpus.csv
+
+VADAR article: https://www.aaai.org/ocs/index.php/ICWSM/ICWSM14/paper/download/8109/8122
