@@ -12,3 +12,15 @@ BS-Detector GitLab: https://gitlab.com/bs-detector/bs-detector
 "Sampling the News Producers: A Large News and Feature Data Set for the Study of the Complex Media Landscape"https://arxiv.org/pdf/1803.10124.pdf
 
 "Language Features for News" Github cited in Horne: https://github.com/BenjaminDHorne/Language-Features-for-News
+
+NELA Dataset (Harvard Dataverse): https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ULHLCB
+
+NELA Toolkit: http://nelatoolkit.science/credibilitytoolkit
+
+NELA Article (Horne et all): http://homepages.rpi.edu/~horneb/WWW18_Horne_Demo.pdf
+
+python-goose dataset: https://github.com/grangier/python-goose/tree/develop/goose
+
+Goose3 quickstart guide: https://goose3.readthedocs.io/en/latest/quickstart.html
+
+Claimbuster dataset: https://idir.uta.edu/claimbuster/
