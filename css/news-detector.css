@@ -13,6 +13,21 @@
   z-index: 2147483647;
 }
 
+.known-news-alert {
+  background: #0fbc29;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  display: block;
+  height: 28px;
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100vw;
+  z-index: 2147483647;
+}
+
 .news-alert span {
   color: #fff;
   font-family: 'Arial', 'Helvetica', sans-serif;
@@ -55,6 +70,16 @@
   border: 1px solid #800000;
   border-radius: .25em;
   color: #800000;
+  text-align: center;
+  margin: 8px 0;
+  padding: 4px;
+}
+
+.known-news-alert-inline {
+  background: #0fbc29;
+  border: 1px solid #0fbc29;
+  border-radius: .25em;
+  color: #0fbc29;
   text-align: center;
   margin: 8px 0;
   padding: 4px;
