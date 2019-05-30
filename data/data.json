@@ -2,27 +2,32 @@
   "defenddemocracy.press" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : "editorial board as stated on about us seem to be legitimate academics, and originally authored content byline are academics, although not able to find a clear link between edu pages and these authors' work on this website. Many 3rd party articles are linked, sources provided. These articles are aggregated from other more clearly biased sites i.e. world socialist web site (wswg.org), rt.com, sputniknews.com."
+    "notes" : "editorial board as stated on about us seem to be legitimate academics, and originally authored content byline are academics, although not able to find a clear link between edu pages and these authors' work on this website. Many 3rd party articles are linked, sources provided. These articles are aggregated from other more clearly biased sites i.e. world socialist web site (wswg.org), rt.com, sputniknews.com.",
+    "score" : 0.2
   },
   "4threvolutionarywar.wordpress.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "aanirfan.blogspot.co.uk" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "abovetopsecret.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "ahtribune.com" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "allnewspipeline.com" : {
     "language" : "en",
@@ -33,1511 +38,1804 @@
   "americanlookout.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "americannews.com" : {
     "language" : "en",
     "type" : "fake ",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "americanpatriotdaily.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "americantoday.news" : {
     "language" : "en",
     "type" : "rumor",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "americasfreedomfighters.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "amplifyingglass.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "amren.com" : {
     "language" : "en",
     "type" : "hate",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "amtvmedia.com" : {
     "language" : "en",
     "type" : "rumor",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "amusmentic.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "ancient-code.com" : {
     "language" : "en",
     "type" : "junksci",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "anonhq.com" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "assassinationscience.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "attn.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "barenakedislam.com" : {
     "language" : "en",
     "type" : "hate",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "beehivebugle.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "betootaadvocate.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "bigbluevision.com" : {
     "language" : "en",
     "type" : "hate",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "bigbluevision.org" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "bignuggetnews.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "collective-evolution.com" : {
     "language" : "en",
     "type" : "junksci",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "dcleaks.com" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "galacticconnection.com" : {
     "language" : "en",
     "type" : "junksci",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "gangstergovernment.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "adobochronicles.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "asia-pacificresearch.com" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "automotostar.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "awdnews.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : "twitter account deleted?"
+    "notes" : "twitter account deleted?",
+    "score" : 0.2
   },
   "bients.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "bigbluedimension.com" : {
     "language" : "en",
     "type" : "rumor",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "blackagendareport.com" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : "anon submissions"
+    "notes" : "anon submissions",
+    "score" : 0.2
   },
   "blacklistednews.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "bostonleader.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "buzzfeedusa.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "bvanews.com" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "celebtricity.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "chaser.com.au" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "christianfightback.com" : {
     "language" : "en",
     "type" : "hate",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "christiantimesnewspaper.com" : {
     "language" : "en",
     "type" : "rumor",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "cityworldnews.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "cnnnext.com" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : "basically an RT video channel"
+    "notes" : "basically an RT video channel",
+    "score" : 0.2
   },
   "counterinformation.wordpress.com" : {
     "language" : "en",
     "type" : "political",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "counterpunch.com" : {
     "language" : "en",
     "type" : "political",
-    "notes" : "explicit POV - legit authors"
+    "notes" : "explicit POV - legit authors",
+    "score" : 0.2
   },
   "counterpunch.org" : {
     "language" : "en",
     "type" : "political",
-    "notes" : "explicit POV - legit authors"
+    "notes" : "explicit POV - legit authors",
+    "score" : 0.2
   },
   "crystalair.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : "redirects to http://www.cap-news.com/"
+    "notes" : "redirects to http://www.cap-news.com/",
+    "score" : 0.2
   },
   "dailyleak.org" : {
     "language" : "en",
     "type" : "parody",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "darkmoon.me" : {
     "language" : "en",
     "type" : "hate",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "davidduke.com" : {
     "language" : "en",
     "type" : "hate",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "davidstockmanscontracorner.com" : {
     "language" : "en",
     "type" : "political",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "foodbabe.com" : {
     "language" : "en",
     "type" : "junksci",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "lushforlife.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "returnofkings.com" : {
     "language" : "en",
     "type" : "hate",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "thebeaverton.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "thedailymash.co.uk" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "whydontyoutrythis.com" : {
     "language" : "en",
     "type" : "junksci",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "worldnewsdailyreport.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "wundergroundmusic.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "whatdoesitmean.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "guccifer2.wordpress.com" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "healthimpactnews.com" : {
     "language" : "en",
     "type" : "junksci",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "healthnutnews.com" : {
     "language" : "en",
     "type" : "junksci",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "henrymakow.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "heresyblog.net" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "holyobserver.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "ihavethetruth.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "in5d.com" : {
     "language" : "en",
     "type" : "junksci",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "indiaarising.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "informationclearinghouse.info" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "informetoday.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "instaworldnews.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "intrendtoday.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "intrepidreport.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "investmentresearchdynamics.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "investmentwatchblog.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "itaglive.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "100percentfedup.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "21stcenturywire.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "24newsflash.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "365usanews.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "70news.wordpress.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "abcnews.com.co" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "abcnewsgo.co" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "abriluno.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "aceflashman.wordpress.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "activistpost.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "addictinginfo.org" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "anonews.co" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "anonnews.co" : {
     "language" : "en",
     "type" : "clickbait ",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "associatedmediacoverage.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "BB4SP.com" : {
     "language" : "en",
     "type" : "conpiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "beforeitsnews.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "bigamericannews.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "bigpzone.com" : {
     "language" : "en",
     "type" : "",
-    "notes" : "redirects to http://therundownlive.com/ (MZ 12/2)"
+    "notes" : "redirects to http://therundownlive.com/ (MZ 12/2)",
+    "score" : 0.2
   },
   "bipartisanreport.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "bluenationreview.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "borowitzreport.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "breaking911.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "breitbart.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "callthecops.net" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "cap-news.com" : {
     "language" : "en",
     "type" : "fake ",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "cbsnews.com.co" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "chicksontheright.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "christwire.org" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "chronicle.su" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "civictribune.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "clickhole.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "coasttocoastam.com" : {
     "language" : "en",
     "type" : "unreliable ",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "consciouslifenews.com" : {
     "language" : "en",
     "type" : "junksci",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "conservativefiringline.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "conservativeoutfitters.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "conspiracywire.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "countdowntozerotime.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "counterpsyops.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "creambmp.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "dailybuzzlive.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "dailycurrant.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "dailyheadlines.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "dailyheadlines.net" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "dailykos.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "dailynewsbin.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "dailysignal.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "dailywire.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "dcclothesline.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "dcgazette.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "denverguardian.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "derfmagazine.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "disclose.tv" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "disclosuremedia.net" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "downtrend.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "drudgereport.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "drudgereport.com.co" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "duffleblog.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "duhprogressive.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "EagleRising.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "electionnightgatekeepers.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "embols.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "empireherald.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "empirenews.net" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "endingthefed.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "enduringvision.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "EUTimes.net" : {
     "language" : "en",
     "type" : "hate",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "fprnradio.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "freedomoutpost.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "geoengineeringwatch.org" : {
     "language" : "en",
     "type" : "junksci",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "globalresearch.ca" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "govtslaves.info" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "gulagbound.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "hangthebankers.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "humansarefree.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "huzlers.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "ifyouonlynews.com" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "ijr.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "ilovemyfreedom.org" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "infowars.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "intellihub.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "ItMakesSenseBlog.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "jonesreport.com" : {
     "language" : "en",
     "type" : "conspiracy ",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "landoverbaptist.org" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "lewrockwell.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "liberalamerica.org" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "libertyfederation.com" : {
     "language" : "en",
     "type" : "hate",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "libertymovementradio.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "libertytalk.fm" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "libertyunyielding.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "libertyvideos.org" : {
     "language" : "en",
     "type" : "conpisracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "lifenews.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "lifesitenews.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "lifezette.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "liveactionnews.org" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "madpatriots.com" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "madworldnews.com" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "makeamericagreattoday.com" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "mediamass.net" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "megynkelly.us" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "mrconservative.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "msnbc.website" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "nahadaily.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "nationalreport.net" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "nationindistress.weebly.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "naturalnews.com" : {
     "language" : "en",
     "type" : "junksci",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "nbc.com.co" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "ncscooper.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "nevo.news" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "newcenturytimes.com" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "newsbiscuit.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "newsexaminer.net" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "newslo.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : "redirects to http://politicops.com/ (12/2)"
+    "notes" : "redirects to http://politicops.com/ (12/2)",
+    "score" : 0.2
   },
   "Newsmax.com" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "newsmutiny.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "newsninja2012.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "newswatch28.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "newswatch33.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "newswire-24.com" : {
     "language" : "en",
     "type" : "rumor",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "newyorker.com/humor" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "nodisinfo.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "northcrane.com" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "now8news.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "nowtheendbegins.com" : {
     "language" : "en",
     "type" : "conpisracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "occupydemocrats.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "other98.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "pakalertpress.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "patriotnewsdaily" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "politicalears.com" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "politicalo.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "politicops.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "politicususa.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "prisonplanet.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "prisonplanet.tv" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "prntly.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "realfarmacy.com" : {
     "language" : "en",
     "type" : "junksci",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "realnewsrightnow.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "realtimepolitics.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "redflagnews.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "reductress.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "rightalert.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "rightwingnews.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "rilenews.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "satiratribune.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "sonsoflibertyradio.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "sportspickle.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "theblaze.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "thebostontribune.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "thedailysheeple.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "theduran.com" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "thefreethoughtproject.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "theinformedamerican.net" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "thenewsnerd.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "theonion.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "thepoliticalinsider.com" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "thereporterz.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "therightstuff.biz" : {
     "language" : "en",
     "type" : "hate",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "thestatelyharold.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "theuspatriot.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "truthfeed.com" : {
     "language" : "en",
     "type" : "hate",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "truthfrequencyradio.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "twitchy.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "ufoholic.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "unconfirmedsources.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "unitedmediapublishing.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "us.blastingnews.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "usapoliticstoday.com " : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "usasupreme.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "usdefensewatch.com" : {
     "language" : "en",
     "type" : "unreliable",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "usherald.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "usuncut.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "veteranstoday.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "wakingupwisconsin.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "waterfordwhispersnews.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "wikileaks.com" : {
     "language" : "en",
     "type" : "rumors",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "wikileaks.org" : {
     "language" : "en",
     "type" : "rumors",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "Willyloman.wordpress.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "winkprogress.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "winningdemocrats.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "witscience.org" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "wnd.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "worldtruth.tv" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "worldwidehealthy.com" : {
     "language" : "en",
     "type" : "junksci",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
-  "www.rt.com" : {
+  "rt.com" : {
     "language" : "en",
     "type" : "state",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "Youngcons.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "yournewswire.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "zerohedge.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "abeldanger.net" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "antiwar.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : "site is biased but very open about bias and source"
+    "notes" : "site is biased but very open about bias and source",
+    "score" : 0.2
   },
   "concisepolitics.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "conservativedailypost.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : "This website is a weird mix of outright fake news and some stuff that looks more credible. "
+    "notes" : "This website is a weird mix of outright fake news and some stuff that looks more credible. ",
+    "score" : 0.2
   },
   "conservativetribune.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "consortiumnews.com" : {
     "language" : "en",
     "type" : "credible",
-    "notes" : "The authors on this website are pretty credible and the articles appear well researched"
+    "notes" : "The authors on this website are pretty credible and the articles appear well researched",
+    "score" : 0.2
   },
   "corbettreport.com" : {
     "language" : "en",
     "type" : "conpsiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "countercurrents.org" : {
     "language" : "en",
     "type" : "political",
-    "notes" : "This site is pretty explicit about it's p.o.v. and is coming from a political perspective but doesn't fit under how we are defining 'bias'"
+    "notes" : "This site is pretty explicit about it's p.o.v. and is coming from a political perspective but doesn't fit under how we are defining 'bias'",
+    "score" : 0.2
   },
   "dailyoccupation.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "dailypolitics.info" : {
     "language" : "en",
     "type" : " ",
-    "notes" : "website now down"
+    "notes" : "website now down",
+    "score" : 0.2
   },
   "dailypoliticsusa.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "dailysquib.co.uk " : {
     "language" : "en",
     "type" : "satire",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "dailystormer.com" : {
     "language" : "en",
     "type" : "hate",
-    "notes" : "pretty well known neo-nazi site"
+    "notes" : "pretty well known neo-nazi site",
+    "score" : 0.1
   },
   "darkpolitricks.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "davidwolfe.com" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "delectabledietofpics.net" : {
     "language" : "en",
     "type" : " ",
-    "notes" : "website now down"
+    "notes" : "website now down",
+    "score" : 0.2
   },
   "departed.co" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : "redircts to dcposts.com "
+    "notes" : "redircts to dcposts.com ",
+    "score" : 0.2
   },
   "dineal.com" : {
     "language" : "en",
     "type" : "junksci",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "educate-yourself.org" : {
     "language" : "en",
     "type" : "conspiracy",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "educateinspirechange.org/health" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "elelephantintheroom.blogspot.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "elitereaders.com" : {
     "language" : "en",
     "type" : "clickbait",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "elkoshary.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : "About Me notes that it's not fake/satircal news"
+    "notes" : "About Me notes that it's not fake/satircal news",
+    "score" : 0.2
   },
   "elmundotoday.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : "About Me notes that it's not fake/satircal news"
+    "notes" : "About Me notes that it's not fake/satircal news",
+    "score" : 0.2
   },
   "empiresports.co" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : "About Me notes that it's not fake/satircal news"
+    "notes" : "About Me notes that it's not fake/satircal news",
+    "score" : 0.2
   },
   "enabon.com" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : "No authors, no contact, just copy/pasted from other questionable sites"
+    "notes" : "No authors, no contact, just copy/pasted from other questionable sites",
+    "score" : 0.2
   },
   "endoftheamericandream.com" : {
     "language" : "en",
     "type" : "unknown",
-    "notes" : "website down"
+    "notes" : "website down",
+    "score" : 0.2
   },
   "endtime.com" : {
     "language" : "en",
     "type" : "unknown",
-    "notes" : "Not sure about this one. zany religious prophecy/not really conspiracy"
+    "notes" : "Not sure about this one. zany religious prophecy/not really conspiracy",
+    "score" : 0.2
   },
   "everythingnewdaily.com" : {
     "language" : "en",
     "type" : "unknown",
-    "notes" : "website down"
+    "notes" : "website down",
+    "score" : 0.2
   },
   "ewao.com" : {
     "language" : "en",
     "type" : "junksci",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "washingtonsblog.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : "Site notes it sometimes contains parody"
+    "notes" : "Site notes it sometimes contains parody",
+    "score" : 0.2
   },
   "westernjournalism.com" : {
     "language" : "en",
     "type" : "bias",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "dennismichaellynch.com" : {
     "language" : "en",
     "type" : "political",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "diversitychronicle.wordpress.com" : {
     "language" : "en",
     "type" : "satire",
-    "notes" : "self-labled: https://diversitychronicle.wordpress.com/disclaimer/ "
+    "notes" : "self-labled: https://diversitychronicle.wordpress.com/disclaimer/ ",
+    "score" : 0.2
   },
   "english.ruvr.ru" : {
     "language" : "en",
     "type" : "unknown",
-    "notes" : "redirects to https://sputniknews.com/ "
+    "notes" : "redirects to https://sputniknews.com/ ",
+    "score" : 0.2
   },
   "eutopia.buzz" : {
     "language" : "en",
     "type" : "fake",
-    "notes" : ""
+    "notes" : "",
+    "score" : 0.2
   },
   "everydayworldnews.com" : {
     "language" : "en",
     "type" : "unknown",
-    "notes" : "website down"
+    "notes" : "website down",
+    "score" : 0.2
   },
   "cnn.com" : {
     "language" : "en",
     "type" : "known",
     "score" : 0.6
-
   },
   "msnbc.com" : {
     "language" : "en",
     "type" : "known",
     "score" : 0.5
-
   },
   "on.msnbc.com" : {
     "language" : "en",
     "type" : "known",
     "score" : 0.5
-
   },
   "foxnews.com" : {
     "language" : "en",
     "type" : "known",
     "score" : 0.5
-
   },
   "cnn.it" : {
     "language" : "en",
