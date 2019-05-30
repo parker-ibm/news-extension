@@ -254,7 +254,6 @@ NewsDetector.prototype = {
     },
 
 
-
     /* Flag entire site
     flagSite: function () {
 
@@ -377,6 +376,8 @@ NewsDetector.prototype = {
                 if (typeof newsd.newsId !== 'undefined') {
                     $(this).attr('data-is-news', true);
                     $(this).attr('data-news-type', newsd.newsId.type);
+                    $(this).attr('data-news-score', newsd.newsId.score);
+
                 }
             }
         });
@@ -394,7 +395,7 @@ NewsDetector.prototype = {
                     $badlinkWrapper.before('<div class="known-news-alert-inline">' + this.warnMessage + '<br/>Reliability Score: ' + this.score +' <br/>Sentiment: '+ this.sentiment + ' </div>');
                     break;
                 default:
-                    $badlinkWrapper.before('<div class="news-alert-inline">' + this.warnMessage + '<br/>Reliability Score: <br/>Sentiment: </div>');
+                    $badlinkWrapper.before('<div class="news-alert-inline">' + this.warnMessage + '<br/>Reliability Score: ' + this.score +' <br/>Sentiment: '+ this.sentiment + ' </div>');
                     break;
             }
 
@@ -421,6 +422,8 @@ NewsDetector.prototype = {
 
         $('a[data-is-news="true"]').each(function () {
             newsd.dataType = $(this).attr('data-news-type');
+            newsd.score = $(this).attr('data-news-score');
+
             newsd.warningMsg();
 
             newsd.debug('Current warning link: ', this);
