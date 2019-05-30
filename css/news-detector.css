@@ -76,7 +76,7 @@
 }
 
 .known-news-alert-inline {
-  background: #0fbc29;
+  background: rgb(204, 255, 215, .5);
   border: 1px solid #0fbc29;
   border-radius: .25em;
   color: #0fbc29;
