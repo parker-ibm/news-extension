@@ -18,3 +18,9 @@ NELA Dataset (Harvard Dataverse): https://dataverse.harvard.edu/dataset.xhtml?pe
 NELA Toolkit: http://nelatoolkit.science/credibilitytoolkit
 
 NELA Article (Horne et all): http://homepages.rpi.edu/~horneb/WWW18_Horne_Demo.pdf
+
+python-goose dataset: https://github.com/grangier/python-goose/tree/develop/goose
+
+Goose3 quickstart guide: https://goose3.readthedocs.io/en/latest/quickstart.html
+
+Claimbuster dataset: https://idir.uta.edu/claimbuster/
