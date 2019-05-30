@@ -1,4 +1,5 @@
 watsonUrl = ('https://gateway.watsonplatform.net/tone-analyzer/api');
+testStr = ('Product sales have been disappointing for the past three quarters.');
 
 // If no browser object, check for chrome
 if (typeof chrome === 'undefined' && typeof browser !== 'undefined') {
@@ -227,6 +228,9 @@ NewsDetector.prototype = {
         case 'test':
             classType = 'Test';
             break;
+        case 'known':
+            classType = 'Known';
+        break;
         default:
             classType = 'Classification Pending';
             break;
@@ -235,6 +239,8 @@ NewsDetector.prototype = {
 
         if (this.dataType === 'caution') {
             this.warnMessage = '⚠️ Caution: Source may be reliable but contents require further verification.';
+        } else if (this.dataType === 'known') {
+            this.warnMessage = 'This is a trusted source. (' + classType + ')';
         } else {
             this.warnMessage = '⚠️ Warning: This may not be a reliable source. (' + classType + ')';
         }
@@ -244,7 +250,7 @@ NewsDetector.prototype = {
 
 
 
-    // Flag entire site
+    /* Flag entire site
     flagSite: function () {
 
         'use strict';
@@ -266,6 +272,8 @@ NewsDetector.prototype = {
 
         if (this.dataType === 'caution') {
             $('body').prepend('<div class="news-alert news-caution"></div>');
+        } else if (this.dataType === 'known') {
+            $('body').prepend('<div class="known-news-alert"></div>');
         } else {
             $('body').prepend('<div class="news-alert"></div>');
         }
@@ -278,7 +286,7 @@ NewsDetector.prototype = {
             $('body').removeClass('news-alert-shift');
             $('.news-alert').remove();
         });
-    },
+    }, */
 
     // Make flags visible
     showFlag: function () {
@@ -376,6 +384,8 @@ NewsDetector.prototype = {
 
             if (this.dataType === 'caution') {
                 $badlinkWrapper.before('<div class="news-alert-inline warning">' + this.warnMessage + '</div>');
+            } else if(this.datatype === 'known') {
+                $badlinkWrapper.before('<div class="known-news-alert-inline">' + this.warnMessage + '<br/>Reliability Score: <br/>Sentiment: </div>');
             } else {
                 $badlinkWrapper.before('<div class="news-alert-inline">' + this.warnMessage + '<br/>Reliability Score: <br/>Sentiment: </div>');
             }
@@ -463,7 +473,7 @@ NewsDetector.prototype = {
             this.identifySite();
 
             if (this.siteId === 'badlink') {
-                this.flagSite();
+                //this.flagSite();
             }
 
             this.firstLoad = false;
@@ -520,10 +530,10 @@ if (window.top === window) {
         'use strict';
 
         switch (message.operation) {
-        case 'flagSite':
+        /* case 'flagSite':
             newsd.dataType = message.type;
             newsd.flagSite();
-            break;
+            break; */
         case 'toggleFlag':
             if (newsd.flagState === 1) {
                 newsd.hideFlag();

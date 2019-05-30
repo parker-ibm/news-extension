@@ -1513,5 +1513,21 @@
     "language" : "en",
     "type" : "unknown",
     "notes" : "website down"
+  },
+  "cnn.com" : {
+    "language" : "en",
+    "type" : "known"
+  },
+  "msnbc.com" : {
+    "language" : "en",
+    "type" : "known"
+  },
+  "foxnews.com" : {
+    "language" : "en",
+    "type" : "known"
+  },
+  "cnn.it" : {
+    "language" : "en",
+    "type" : "known"
   }
 }
