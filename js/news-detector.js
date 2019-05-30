@@ -112,9 +112,10 @@ NewsDetector.prototype = {
             case 'facebook.com':
                 this.siteId = 'facebook';
                 break;
-            case 'twitter.com':
+            /* case 'twitter.com':
                 this.siteId = 'twitter';
                 break;
+            */
             default:
                 this.siteId = 'none';
                 // Try to find the site in data
@@ -295,6 +296,8 @@ NewsDetector.prototype = {
 
         this.flagState = 1;
         $('.news-alert').show();
+        $('.known-news-alert').show();
+
     },
 
     // Make flags invisible
@@ -304,6 +307,8 @@ NewsDetector.prototype = {
 
         this.flagState = -1;
         $('.news-alert').hide();
+        $('.known-news-alert').hide();
+
     },
 
     // Get the hostname of a given element's link
@@ -417,11 +422,11 @@ NewsDetector.prototype = {
                     newsd.flagPost($(this).closest('.UFICommentBody'));
                 }
                 break;
-            case 'twitter':
+            /* case 'twitter':
                 if ($(this).parents('.tweet').length >= 0) {
                     newsd.flagPost($(this).closest('.js-tweet-text-container'));
                 }
-                break;
+                break; */
             case 'badlink':
             case 'none':
                 break;
@@ -484,10 +489,11 @@ NewsDetector.prototype = {
             this.observerRoot = $("body");
             this.observerFilter = [{ element:"div" }];
             break;
-        case 'twitter':
+        /* case 'twitter':
             this.observerRoot = $("div#page-container");
             this.observerFilter = [{ element:"div" }];
-            break;
+            break; 
+        */
         case 'badSite':
             break;
         case 'none':
