@@ -351,16 +351,19 @@ NewsDetector.prototype = {
 
     getTone: function(thisUrl) {
         
-        fetch(`https://cors.io?https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2018-11-16&url=${thisUrl}&features=keywords`, {
+        fetch(`https://cors.io?https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2018-11-16&url=${thisUrl}&features=keywords,sentiment,emotion&keywords.emotion=true`, {
             headers: {
                 Authorization: "Basic YXBpa2V5OjZ2NXMtaHdySlZmNHExcURvMlpLS3EyWHZxYjNuSk9wSFBDQnlCYVpiXzFM",
             },
             method: 'GET'
         }
-        ).then(r => r.text()).then(result => {
-            // Result now contains the response text, do what you want...
-            console.log(result);
-        })
+        )
+        .then(r => r.json())
+        .then(data => obj = data)
+        .then(()=> console.log(obj['emotion']['document']['emotion'])
+        )
+        
+            //console.log(result['emotion']['document'])
     },
 
 
