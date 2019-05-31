@@ -331,19 +331,38 @@ NewsDetector.prototype = {
         })
     }, */
 
-    getTone: function(url) {
-        var watsonAPI = 'https://gateway.watsonplatform.net/tone-analyzer/api/v1/analyze?version=2018-11-16/';
-        var apikey = 'ppuuYoF4q67GA-repblvIDPvqC7de4E36htroVZ-0Jqg'
-        fetch("https://gateway.watsonplatform.net/tone-analyzer/api/v3/tone?version=2017-09-21&text=Team,%20I%20know%20that%20times%20are%20tough20Product%20sales%20have%20been%20disappointing%20for%20the%20past%20three%20quarters.%20We%20have%20a%20competitive%20product,%20but%20we%20need%20to%20do%20a%20better%20job%20of%20selling%20it", {
+    /* getTone: function(thisUrl) {
+        
+        fetch("https://gateway.watsonplatform.net/tone-analyzer/api/v3/tone?version=2017-09-21", {
+            body: {
+                url: `${thisUrl}`
+            },
             headers: {
-                Authorization: "Basic YXBpa2V5OnBwdXVZb0Y0cTY3R0EtcmVwYmx2SURQdnFDN2RlNEUzNmh0cm9WWi0wSnFn"
-            }
+                Authorization: "Basic YXBpa2V5OnBwdXVZb0Y0cTY3R0EtcmVwYmx2SURQdnFDN2RlNEUzNmh0cm9WWi0wSnFn",
+                "Content-Type": "text/html"
+            },
+            method: 'POST'
+        }
+        ).then(r => r.text()).then(result => {
+            // Result now contains the response text, do what you want...
+            console.log(result);
+        })
+    }, */
+
+    getTone: function(thisUrl) {
+        
+        fetch(`https://cors.io?https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2018-11-16&url=${thisUrl}&features=keywords`, {
+            headers: {
+                Authorization: "Basic YXBpa2V5OjZ2NXMtaHdySlZmNHExcURvMlpLS3EyWHZxYjNuSk9wSFBDQnlCYVpiXzFM",
+            },
+            method: 'GET'
         }
         ).then(r => r.text()).then(result => {
             // Result now contains the response text, do what you want...
             console.log(result);
         })
     },
+
 
     // Get the hostname of a given element's link
     getHost: function ($element) {
