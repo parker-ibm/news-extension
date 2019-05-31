@@ -360,7 +360,17 @@ NewsDetector.prototype = {
         )
         .then(r => r.json())
         .then(data => obj = data)
-        .then(()=> console.log(obj['emotion']['document']['emotion'])
+        .then(()=> {//console.log(obj['emotion']['document']['emotion'])
+        let myobj = obj['emotion']['document']['emotion'];
+        console.log(myobj);
+        var arr = Object.keys( myobj ).map(function ( key ) { return myobj[key]; });
+        //console.log(arr);
+        var min = Math.min.apply( null, arr );
+        console.log(min);
+        var max = Math.max.apply( null, arr );
+        console.log(max);
+
+        }
         )
         
             //console.log(result['emotion']['document'])
