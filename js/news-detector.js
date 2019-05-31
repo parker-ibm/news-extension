@@ -312,44 +312,7 @@ NewsDetector.prototype = {
 
     },
 
-
-     //Detect tone via Watson API
-     /* getTone: async function(url) {
-        var watsonAPI = 'https://gateway.watsonplatform.net/tone-analyzer/api/v1/analyze?version=2018-11-16/';
-        var apikey = 'ppuuYoF4q67GA-repblvIDPvqC7de4E36htroVZ-0Jqg'
-        fetch(`${watsonAPI}`, {
-            //body: '{"url": \"https://www.ft.com/content/6da72076-8133-11e9-b592-5fe435b57a3b\",\n\"features\": {\n\"sentiment\": {},\n\"categories\": {},\n\"concepts\": {},\n\"entities\": {},\n\"keywords\": {}\n}\n}',
-            headers: {
-                "apikey": 'ppuuYoF4q67GA-repblvIDPvqC7de4E36htroVZ-0Jqg',
-                "Content-Type": "application/json"
-            },
-            method: 'POST'
-        }
-        ).then(r => r.text()).then(result => {
-            // Result now contains the response text, do what you want...
-            console.log(result);
-        })
-    }, */
-
-    /* getTone: function(thisUrl) {
-        
-        fetch("https://gateway.watsonplatform.net/tone-analyzer/api/v3/tone?version=2017-09-21", {
-            body: {
-                url: `${thisUrl}`
-            },
-            headers: {
-                Authorization: "Basic YXBpa2V5OnBwdXVZb0Y0cTY3R0EtcmVwYmx2SURQdnFDN2RlNEUzNmh0cm9WWi0wSnFn",
-                "Content-Type": "text/html"
-            },
-            method: 'POST'
-        }
-        ).then(r => r.text()).then(result => {
-            // Result now contains the response text, do what you want...
-            console.log(result);
-        })
-    }, */
- 
-    
+    // Get tone with Watson API
     getTone: function(thisUrl) {
         
         fetch(`https://cors.io?https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2018-11-16&url=${thisUrl}&features=keywords,sentiment,emotion&keywords.emotion=true`, {
@@ -361,22 +324,24 @@ NewsDetector.prototype = {
         )
         .then(r => r.json())
         .then(data => obj = data)
-        .then(()=> {//console.log(obj['emotion']['document']['emotion'])
-        let myobj = obj['emotion']['document']['emotion'];
-        console.log(myobj);
-        var arr = Object.keys( myobj ).map(function ( key ) { return myobj[key]; });
-        //console.log(arr);
-        var min = Math.min.apply( null, arr );
-        console.log(min);
-        var max = Math.max.apply( null, arr );
-        console.log(max);
-        // console.log(getKeyByValue(myobj,max));
-        console.log(Object.keys(myobj).find(key => myobj[key] === max));
+        .then(()=> {
+            let myobj = obj['emotion']['document']['emotion'];
+            console.log(myobj);
+            var arr = Object.keys( myobj ).map(function ( key ) { return myobj[key]; });
+            
+            /* console.log(arr);
+            var min = Math.min.apply( null, arr );
+            console.log(min); */
 
-        }
-        )
-        
-            //console.log(result['emotion']['document'])
+            var max = Math.max.apply( null, arr );
+            console.log(max);
+
+            /* console.log(getKeyByValue(myobj,max));
+            console.log(Object.keys(myobj).find(key => myobj[key] === max)); */
+            
+            let highEmotion = Object.keys(myobj).find(key => myobj[key] === max);
+            console.log(highEmotion);
+        })
     },
 
 
