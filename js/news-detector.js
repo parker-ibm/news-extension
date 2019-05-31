@@ -348,7 +348,8 @@ NewsDetector.prototype = {
             console.log(result);
         })
     }, */
-
+ 
+    
     getTone: function(thisUrl) {
         
         fetch(`https://cors.io?https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2018-11-16&url=${thisUrl}&features=keywords,sentiment,emotion&keywords.emotion=true`, {
@@ -369,6 +370,8 @@ NewsDetector.prototype = {
         console.log(min);
         var max = Math.max.apply( null, arr );
         console.log(max);
+        // console.log(getKeyByValue(myobj,max));
+        console.log(Object.keys(myobj).find(key => myobj[key] === max));
 
         }
         )
