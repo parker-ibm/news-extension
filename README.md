@@ -35,4 +35,4 @@ MIT/QRIC Corpus list: https://github.com/ramybaly/News-Media-Reliability/blob/ma
 
 VADER article: https://www.aaai.org/ocs/index.php/ICWSM/ICWSM14/paper/download/8109/8122
 
-Interview questions obtained: ask Amanda
+Interview questions obtained for Fandango Project and PolitiFact: ask Amanda
