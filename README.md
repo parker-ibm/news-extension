@@ -34,3 +34,5 @@ Claimbuster dataset: https://idir.uta.edu/claimbuster/
 MIT/QRIC Corpus list: https://github.com/ramybaly/News-Media-Reliability/blob/master/data/corpus.csv
 
 VADER article: https://www.aaai.org/ocs/index.php/ICWSM/ICWSM14/paper/download/8109/8122
+
+Interview questions obtained for Fandango Project and PolitiFact: ask Amanda 
