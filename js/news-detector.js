@@ -1,9 +1,13 @@
-watsonUrl = ('https://gateway.watsonplatform.net/tone-analyzer/api');
 testStr = ('Product sales have been disappointing for the past three quarters.');
 
 // If no browser object, check for chrome
 if (typeof chrome === 'undefined' && typeof browser !== 'undefined') {
     chrome = browser;
+}
+
+function ucFirst(string) 
+{
+    return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
 //Class constructor with variable initialize
@@ -24,6 +28,7 @@ function NewsDetector() {
     
     this.score = 0;
     this.sentiment = '';
+    this.origUrl = '';
 
     this.shorts = [];
     this.shortUrls = [];
@@ -313,9 +318,10 @@ NewsDetector.prototype = {
     },
 
     // Get tone with Watson API
-    getTone: function(thisUrl) {
+    getTone: async function(thisUrl) {
+        let thisEmotion;
         
-        fetch(`https://cors.io?https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2018-11-16&url=${thisUrl}&features=keywords,sentiment,emotion&keywords.emotion=true`, {
+        await fetch(`https://cors.io?https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2018-11-16&url=${thisUrl}&features=keywords,sentiment,emotion&keywords.emotion=true`, {
             headers: {
                 Authorization: "Basic YXBpa2V5OjZ2NXMtaHdySlZmNHExcURvMlpLS3EyWHZxYjNuSk9wSFBDQnlCYVpiXzFM",
             },
@@ -325,23 +331,27 @@ NewsDetector.prototype = {
         .then(r => r.json())
         .then(data => obj = data)
         .then(()=> {
+            if (obj == undefined) {
+                console.log('undefined');
+            } else {
             let myobj = obj['emotion']['document']['emotion'];
-            console.log(myobj);
+           
+            //console.log(myobj);
             var arr = Object.keys( myobj ).map(function ( key ) { return myobj[key]; });
-            
-            /* console.log(arr);
-            var min = Math.min.apply( null, arr );
-            console.log(min); */
-
             var max = Math.max.apply( null, arr );
-            console.log(max);
+            //console.log(max);
 
-            /* console.log(getKeyByValue(myobj,max));
-            console.log(Object.keys(myobj).find(key => myobj[key] === max)); */
-            
             let highEmotion = Object.keys(myobj).find(key => myobj[key] === max);
             console.log(highEmotion);
-        })
+            // return highEmotion;
+            thisEmotion = highEmotion;
+            }
+        }) 
+        //console.log('This emotion: ' + thisEmotion);
+        newsd.sentiment = ucFirst(thisEmotion); 
+        //console.log('Sentiment: ' + newsd.sentiment);
+        return thisEmotion;
+
     },
 
 
@@ -356,8 +366,10 @@ NewsDetector.prototype = {
             
             //!!!
             // console.log(thisUrl);
-            this.getTone(thisUrl);
-            
+            let tone = this.getTone(thisUrl);
+            console.log('Tone:' + tone);
+            console.log(thisUrl);
+           
         } else {
             thisUrl = $element.attr('href');
         }
@@ -381,10 +393,12 @@ NewsDetector.prototype = {
                 testLink = '',
                 thisUrl = '',
                 matches = null;
-
+                
             // exclude links that have the same hostname
             if (!newsd.ownHostRegExp.test(this.href)) {
+                
                 $(this).attr('data-external', true);
+
             }
 
             // convert facebook urls
@@ -392,6 +406,7 @@ NewsDetector.prototype = {
 
                 testLink = decodeURIComponent(this.href);
                 if(matches = newsd.lfbRegExp.exec(this.href)){
+                    newsd.origUrl = thisUrl;
                     thisUrl = decodeURIComponent(matches[1]);
                 }
                 if (thisUrl !== '') {
@@ -402,12 +417,16 @@ NewsDetector.prototype = {
         });
 
         // process external links
-        $('a[data-external="true"]').each(function () {
+        $('a[data-external="true"]').each( async function () {
             var urlHost = '';
 
             if ($(this).attr('data-is-news') !== 'true') {
-
+                
+                
+                // console.log('curl: ' + newsd.currentUrl);
                 urlHost = newsd.getHost($(this));
+                // console.log(thisUrl);
+
                 // check if link is in list of bad domains
                 newsd.newsId = newsd.data[urlHost];
 
@@ -416,7 +435,13 @@ NewsDetector.prototype = {
                     $(this).attr('data-is-news', true);
                     $(this).attr('data-news-type', newsd.newsId.type);
                     $(this).attr('data-news-score', newsd.newsId.score);
-                    $(this).attr('data-news-sentiment', newsd.newsId.sentiment);
+                    
+                    //newsd.sentiment = await newsd.getTone();
+                    //console.log('Sentiment again: ' + newsd.sentiment);
+                    $(this).attr('data-news-sentiment', newsd.sentiment);
+                    
+                    console.log('Orig url:' + newsd.newsId.origUrl);
+                    // newsd.newsId.sentiment = this.getTone(thisUrl);
                 }
             }
         });
