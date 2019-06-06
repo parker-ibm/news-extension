@@ -1,10 +1,9 @@
 
 
 from goose3 import Goose
-#import json
 
 def scraper():
-    #mport Goose
+    
     url = input()
     g = Goose()
     article = g.extract(url=url)   
