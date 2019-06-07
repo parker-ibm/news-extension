@@ -38,3 +38,7 @@ VADER article: https://www.aaai.org/ocs/index.php/ICWSM/ICWSM14/paper/download/8
 Interview questions obtained for Fandango Project and PolitiFact: ask Amanda 
 
 Goose3 code configuration: https://github.com/amlmike/web-scraper
+
+Parser: https://www.npmjs.com/package/article-parser
+see the file article-parser.js for the code easily accessble
+
