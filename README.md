@@ -19,7 +19,7 @@ BS-Detector GitLab: https://gitlab.com/bs-detector/bs-detector
 
 "Language Features for News" Github cited in Horne: https://github.com/BenjaminDHorne/Language-Features-for-News
 
-NELA Dataset (Harvard Dataverse): https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ULHLCB
+NELA Dataset (Harvard Dataverse) (Does not work on the Wifi for some reason): https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ULHLCB
 
 NELA Toolkit: http://nelatoolkit.science/credibilitytoolkit
 
