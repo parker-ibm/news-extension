@@ -42,3 +42,4 @@ Goose3 code configuration: https://github.com/amlmike/web-scraper
 Parser: https://www.npmjs.com/package/article-parser
 see the file article-parser.js for the code easily accessble
 
+NELA Github: https://github.com/BenjaminDHorne/The-NELA-Toolkit
